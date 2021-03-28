@@ -1,0 +1,117 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.top {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    flex-direction: row;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    
+}
+
+.topleft-icons {
+    width: 70%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: left ;
+    align-items: center;
+
+}
+.topleft {
+    display: flex;
+    margin: 1rem;
+    
+}
+
+.topright {
+    display: flex;
+    margin: 1rem;
+    
+}
+.topright-icons {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right ;
+    align-items: center;
+    
+}
+.topleft:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+.topright:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Main Decoration */
+.main-content {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    flex-direction: column;
+    position: relative;
+    
+
+}
+.el0 {
+    color: grey;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.el1 {
+    display: flex;
+    font-size: 13px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.el2 {
+    display: flex;
+    font-size: large;
+    color: green;
+    margin: 1px;
+    margin-left: 2rem;
+
+}
+.el2:hover {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.el3 {
+    display: flex;
+    font-size: small;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+/* Bottom-Decoration*/
+.bottoms {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 2.05rem;
+    background-color: grey;
+    
+}
+.bot-left {
+    margin-left: 2rem;
+}
+.bot-left:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: red;
+}
+
