@@ -1,0 +1,174 @@
+html,body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+/*Rectangle-Square Properties*/
+.master-square {
+    display: flex;
+    height: 390px;
+    width: 305px;
+    background-color: rgb(164, 236, 104);
+    flex-direction: column;
+}
+.square {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #2797bd;
+}
+
+.rectangle {
+    display: flex;
+    width: 130px;
+    height: 50px;
+    background-color: rgb(231, 176, 120);
+    
+}
+/*Row-1 Properties*/
+.row-1 {
+    display: flex;
+    flex-direction: row;
+   
+}
+#sq-11 {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+#sq-12 {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+#sq-13 {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+#rc-11 {
+    display: flex;
+    margin: 5px;
+}
+/*Row-2 Properties*/
+.row-2 {
+display: flex;
+    flex-direction: row;
+    
+}
+#rc-21 {
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+#sq-21 {
+    display: flex;
+    margin-left:auto;
+    margin-right: 5px;
+}
+#sq-22 {
+    display: flex;
+    
+    margin-right: 5px;
+    
+}
+/*Row-3*/
+.row-3 {
+    display: flex;
+    flex-direction: row;
+}
+#rc-31 {
+    margin-left: 5px;
+}
+#rc-32 {
+    margin-right: 5px;
+    margin-left: auto;
+}
+/*Row-4*/
+.row-4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+#sq-41 {
+    display: flex;
+    margin-left: 60px;
+}
+#sq-42 {
+    display: flex;
+    margin-left: 5px;
+}
+#sq-43 {
+    display: flex;
+    margin-left: auto;
+}
+#sq-44 {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*Row-5*/
+.row-5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+#sq-51 {
+    display: flex;
+    margin-left: 5px;
+}
+#sq-52 {
+    display: flex;
+    margin-left: 5px;
+}
+#sq-53 {
+    display: flex;
+    margin-left: 5px;
+}
+#sq-54 {
+    display: flex;
+    margin-left: 5px;
+    
+}
+/*Row-6*/
+.row-6 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+#sq-61 {
+    display: flex;
+    margin-left: 115px;
+}
+#sq-62 {
+    display: flex;
+    margin-left: auto;
+    margin-right: 60px;
+}
+/*Row-7*/
+.row-7 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+#sq-71 {
+    display: flex;
+    margin-left: 5px;
+}
+#rc-71 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sq-72 {
+    display: flex;
+    margin-right: 5px;
+}
