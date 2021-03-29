@@ -1,0 +1,149 @@
+html,body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+
+}
+/*top-line*/
+.top-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 4rem;
+    box-shadow: 0px 1px  12px #f2f2f2;
+    font-size: 20px;
+}
+.sell-icon {
+    display: flex;
+    width: 110px;
+    height: 40px;
+    background-color: #373DCC;
+    align-items: center;
+    font-size: large;
+    justify-content: center;
+    border-radius: 2px;
+    margin-left: 5rem;
+    color: white;
+}
+.sell-icon:hover {
+    cursor: pointer;
+}
+.other-icons {
+    width: 150px;
+    height: 3.5rem;
+    margin-left: 2.5rem;
+    
+}
+.other-icons:hover {
+    cursor: pointer;
+}
+.app-dl {
+    display: flex;
+    margin-left: 5rem;
+    color: #373DCC;
+}
+.app-dl:hover {
+    cursor: pointer;
+}
+.about-g {
+    display: flex;
+    margin-left: 5rem;
+    color: #373DCC;
+}
+.about-g:hover {
+    cursor: pointer;
+}
+.category {
+    display: flex;
+    margin-left: 5rem;
+    color: #373DCC;
+}
+.category:hover {
+    cursor: pointer;
+}
+.search-box {
+    display: flex;
+    width: 430px;
+    height: 35px;
+    background-color: #F2F2F2;
+    margin-left: auto;
+    margin-right: 1rem;
+   text-align: right;
+    border: none;
+}
+
+.master-icon {
+    display: flex;
+    width: 12rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+.master-icon:hover {
+    cursor: pointer;
+}
+
+/*main-container*/
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-img {
+    display: flex;
+    
+    flex-direction: column;
+    align-content: center;
+    width: 1090px;
+    height: 260px;
+    
+}
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+.img-21 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 1.5rem
+}
+.img-22 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 1.5rem
+}
+.img-23 {
+    display: flex;
+    width: 530px;
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 1.5rem;
+}
+.main-img:hover {
+    cursor: pointer;
+}
+.img-21:hover {
+    cursor: pointer;
+}
+.img-22:hover {
+    cursor: pointer;
+}
+.img-23:hover {
+    cursor: pointer;
+}
+
+
+
