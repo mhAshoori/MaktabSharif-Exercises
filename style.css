@@ -1,0 +1,140 @@
+html,body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #ECEEF0;
+    justify-content: center;
+    align-items: center;
+    font-family: mySans;
+}
+@font-face {
+    src: url(./fonts/WorkSans-VariableFont_wght.ttf);
+    font-family: mySans;
+}
+.container {
+    display: flex;
+    width: 490px;
+    height: 380px;
+    background-color: white ;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    overflow: hidden;
+    color: grey;
+}
+.up-row {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    
+    position: relative;
+}
+.img {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: right 60%;  
+    
+}
+
+.signin-bck {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color : rgba(56, 90, 105, 0.6);
+}
+.sign-in {
+  
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-150%);
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+.down-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.un-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.usnm {
+    display: flex;
+    outline: 0;
+    border-width: 0 0 2px;
+    width: 270px;
+    height: 30px;
+    margin-left: 1rem;
+}
+#usnm-text { 
+    display: flex;
+    align-self: flex-end;
+    width: 70px;
+   transform: translate(-8px);
+}
+.pw-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pwd {
+    display: flex;
+    outline: 0;
+    border-width: 0 0 2px;
+    width: 270px;
+    height: 30px;
+    margin-left: 1rem;
+}
+#pwd-text {
+    display: flex;
+    transform: translate(-4px);
+    width: 70px;
+    
+    
+}
+.opts {
+    display: flex;
+    width: 100%;
+    height: 1rem;
+    font-size: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.checkbox-container {
+    display: flex;
+    margin-left: 150px;
+    align-items: center;
+}
+.link {
+    display: flex;
+    margin-left: auto;
+    margin-right: 60px;
+    text-decoration: none;
+    color: grey;
+}
+.button {
+    display: flex;
+    width: 95px;
+    height: 30px;
+    color: white;
+    background-color: #72AD5A;
+    border-width: 0 0;
+    border-radius: 47.5px ;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.button:hover {
+    cursor: pointer;
+}
+
