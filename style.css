@@ -1,0 +1,114 @@
+html,body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.bck-img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    object-fit: cover;
+    object-position: center top;
+    
+}
+.container {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 340px;
+    height: 450px;
+    background-image: linear-gradient(#7979F5,#A936EA);
+    border-radius: 0.5rem;
+}
+.logo-background {
+    display: flex;
+    align-self: center;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    margin-top: 2rem;
+    justify-content: center;
+    border-radius: 50%;
+}
+.prf-img {
+    align-self: center;
+    width: 40px;
+    height: 40px;
+}
+.sgn-text {
+    display: flex;
+    align-self: center;
+    color: white;
+}
+.inps {
+    display: flex;
+    width: 300px;
+    height: 2.5rem;
+    align-self: center;
+    margin: 6px;
+    
+    outline: 0;
+    border-width: 0 0 0;
+    background: transparent;
+    color: white;
+
+}
+.inputs-container{
+    display: flex;
+    width: 90%;
+    height: 3rem;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    border-bottom: 12px;
+    margin-left: 3px;
+    outline: 0;
+    border-bottom: solid;
+    border-bottom-color: rgba(213, 195, 236,0.5);
+}
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    color: white;
+    margin-top: 1rem;
+}
+#rem-text {
+    display: flex;
+    margin-left: 0.25rem;
+    font-size: small;
+    
+}
+#button {
+    display: flex;
+    width: 95px;
+    height: 40px;
+    align-self: center;
+   justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-width: 0 0;
+    margin-top: 0.75rem;
+    border-radius: 20px;
+}
+#button:hover {
+    cursor: pointer;
+}
+#link {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    font-size: smaller;
+}
