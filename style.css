@@ -1,0 +1,157 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.up-row {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.media {
+    display: flex;
+    width: 85px;
+    height: 25px;
+}
+
+.up-row >img,div {
+    margin-left: auto;
+    margin-right: auto;
+}
+.up-row > h1 {
+    margin: 0;
+    font-size: 50px;
+}
+#subject-2 {
+    color: red;
+}
+.search-container {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #E55B6B;
+    align-items: center;
+    justify-content: center;
+}
+.search-icon {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    
+}
+.categories {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.categories > a {
+    margin: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+.categories > a:hover {
+    color: red;
+}
+.posts-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 540px;
+    justify-content: center;
+    
+    
+}
+.post-parent {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 540px;
+    justify-content: cennter;
+
+}
+.posts-container > div {
+    display: flex;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.post {
+    display: flex;
+    /* width: clac(180px*1.5);
+    height: calc(230px*1.); */
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+    
+    box-shadow: 0 0 13px 1px rgba(128, 128, 128, 0.411);
+}
+.image {
+    display: flex;
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+}
+.status {
+    display: flex;
+    background-color: #716CF9;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    transform: translate(7rem,1rem);
+    border-radius: 15px;
+    font-size: smaller;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.comment {
+     display: flex;
+     position: absolute;
+     background-color: white;
+     align-self: flex-end;
+     justify-content: center; 
+     transform: translateX(70%);
+     padding: 12px;
+     border-radius: 3px;
+}
+.id-date {
+    display: flex;
+    width: 280px;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.id-date > p {
+    display: flex;
+    font-size: smaller;
+    justify-content: center;
+}
+.prof-image {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    margin-top: 5px;
+}
+.bt-text {
+    display: flex;
+    font-size: smaller;
+    color: rgba(128, 128, 128, 0.8);
+    align-self: center;
+}
